@@ -34,7 +34,7 @@ int checkEvenParity(short input)
 		if (input & mask)
 			counter += 1;
 	}
-	if (counter % 2 == 0)
+	if (!(counter % 2))
 		return 1;
 	else return 0;
 }
