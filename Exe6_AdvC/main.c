@@ -11,6 +11,7 @@ void main(){
 	int num_a = pack4Chars2Int(a, b, c, d);
 	short num_b = 24;
 	num_a = checkEvenParity(num_b);
+	printf("%d", num_a);
 }
 
 int pack4Chars2Int(char c1, char c2, char c3, char c4)
